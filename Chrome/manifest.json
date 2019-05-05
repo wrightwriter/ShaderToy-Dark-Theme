@@ -1,7 +1,7 @@
 {
   "name": "ShaderToy Dark Mode",
   "short_name": "st_darkmode",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "A dark look to the website shadertoy.com",
   "browser_action": {
