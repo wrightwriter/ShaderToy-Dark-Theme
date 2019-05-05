@@ -8,6 +8,14 @@
 // @grant        none
 // ==/UserScript==
 
+// @run-at       document-begin
+// @require      https://gist.githubusercontent.com/raw/2625891/waitForKeyElements.js
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+// @grant        GM_addStyle
+// @grant        GM.setValue
+// @grant        GM.getValue
+// ==/UserScript==
+
 (function() {
     'use strict';
 
