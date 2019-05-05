@@ -308,5 +308,8 @@ const theme = `
     pageButtons {
       background-color: #848484;
     }
+    input#mySearch{
+      background-color: #b3b3b3;
+    }
 
 `;

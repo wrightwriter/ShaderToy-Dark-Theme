@@ -1,9 +1,9 @@
 {
-  "name": "ShaderToy Dark Theme",
-  "short_name": "st_darktheme",
+  "name": "ShaderToy Dark Mode",
+  "short_name": "st_darkmode",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "A dark look at the website shadertoy.com",
+  "description": "A dark look to the website shadertoy.com",
   "browser_action": {
   },
   "icons": { "16": "icon16.png",
