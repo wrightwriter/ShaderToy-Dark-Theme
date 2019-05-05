@@ -1,0 +1,19 @@
+{
+  "name": "ShaderToy Dark Theme",
+  "short_name": "st_darktheme",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A dark look at the website shadertoy.com",
+  "browser_action": {
+  },
+  "icons": { "16": "icon16.png",
+    "48": "icon48.png",
+   "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://*.shadertoy.com/*"],
+      "js": ["jquery.min.js", "waitForKeyElements.js" , "content.js"]
+    }
+  ],
+  "permissions": ["storage"]
+}
